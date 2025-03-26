@@ -1,0 +1,13 @@
+[book]
+authors = ["Tahlon Brahic"]
+description = "Deploy NixOS to act as a secure Linux-based router"
+title = "Coldfront: Deploy NixOS to act as a secure Linux-based router"
+
+[build]
+extra-watch-dirs = ["."]
+
+[output.html]
+edit-url-template = "https://github.com/cryomancy/coldfront/edit/main/docs/{path}"
+git-repository-url = "https://github.com/cryomancy/coldfront"
+preferred-dark-theme = "ayu"
+site-url = "/coldfront/"
